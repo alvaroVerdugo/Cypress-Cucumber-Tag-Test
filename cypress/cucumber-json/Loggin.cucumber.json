@@ -1,0 +1,164 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test cases for login module",
+    "line": 2,
+    "id": "test-cases-for-login-module",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "Loggin.feature",
+    "elements": [
+      {
+        "id": "test-cases-for-login-module;as-visitor-user,-i-want-to-log-in",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As visitor user, i want to log in",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit the \"/login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 2968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter the \"FakeUser\" and \"FakePassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 490000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-cases-for-login-module;as-visitor-user,-i-want-to-log-in",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As visitor user, i want to log in",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit the \"/login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter the \"tomsmith\" and \"FakePassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 423000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-cases-for-login-module;as-visitor-user,-i-want-to-log-in",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As visitor user, i want to log in",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit the \"/login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter the \"tomsmith\" and \"SuperSecretPassword!\"",
+            "result": {
+              "status": "passed",
+              "duration": 626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

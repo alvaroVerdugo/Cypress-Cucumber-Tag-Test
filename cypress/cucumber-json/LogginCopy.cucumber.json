@@ -1,0 +1,37 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test cases for login module",
+    "line": 1,
+    "id": "test-cases-for-login-module",
+    "tags": [],
+    "uri": "LogginCopy.feature",
+    "elements": [
+      {
+        "id": "test-cases-for-login-module;as-visitor-user,-i-want-to-log-in",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "As visitor user, i want to log in",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I visit the \"/login\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1370000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
